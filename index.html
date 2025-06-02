@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Validação de CPF</title>
+</head>
+<body>
+    <h1>Validar CPF</h1>
+    <form action="validar_cpf.php" method="post">
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" required pattern="\d{11}" title="Digite 11 números" /><br><br>
+
+        <label for="birthdate">Data de Nascimento:</label>
+        <input type="date" id="birthdate" name="birthdate" required /><br><br>
+
+        <button type="submit">Validar</button>
+    </form>
+</body>
+</html>
