@@ -1,1 +1,1 @@
-# ValidacaoDeCpf
+A API da CPFHub oferece validação de CPF com dados cruzados de nascimento, sendo útil para sistemas que exigem verificação de identidade. A autenticação é feita via x-api-key, e a requisição ocorre por meio de POST com dados JSON (CPF e data de nascimento). O serviço é voltado para desenvolvedores que precisam integrar validação de CPF em aplicações web e backend. Documentação oficial e exemplos de uso estão disponíveis no site oficial.# ValidacaoDeCpf
